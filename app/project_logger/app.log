@@ -1,0 +1,316 @@
+2026-03-01 15:42:16,392 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 15:42:17,825 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 15:43:18,147 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 15:43:19,612 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 15:43:56,858 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 15:47:31,754 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 15:47:48,563 - ecommerce_project - INFO - поиск объектов в модели ProductModel по параметрам {'is_active': True}
+2026-03-01 15:48:58,962 - ecommerce_project - INFO - поиск объектов в модели CategoryModel по параметрам {'is_active': True}
+2026-03-01 15:49:24,258 - ecommerce_project - INFO - Создание новго объекта с данными {'name': 'Пиво', 'parent_id': None} в модели CategoryModel
+2026-03-01 15:49:24,259 - ecommerce_project - INFO - поиск значения по параметрам {'name': 'Пиво', 'parent_id': None} в модели CategoryModel
+2026-03-01 15:49:24,262 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели CategoryModel
+2026-03-01 15:49:24,262 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 15:49:24,262 - ecommerce_project - INFO - добавили продукт в сессию {'name': 'Пиво', 'parent_id': None}
+2026-03-01 15:49:36,190 - ecommerce_project - INFO - Создание новго объекта с данными {'name': 'Соки', 'parent_id': None} в модели CategoryModel
+2026-03-01 15:49:36,191 - ecommerce_project - INFO - поиск значения по параметрам {'name': 'Соки', 'parent_id': None} в модели CategoryModel
+2026-03-01 15:49:36,192 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели CategoryModel
+2026-03-01 15:49:36,192 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 15:49:36,193 - ecommerce_project - INFO - добавили продукт в сессию {'name': 'Соки', 'parent_id': None}
+2026-03-01 15:49:39,039 - ecommerce_project - INFO - поиск объектов в модели CategoryModel по параметрам {'is_active': True}
+2026-03-01 15:50:31,676 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 15:50:31,686 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 15:50:31,950 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 15:50:31,951 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 15:50:35,763 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 15:50:35,763 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 15:50:35,765 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 15:51:08,263 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 15:51:08,265 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 15:51:08,459 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ybica_228@gmail.com', 'role': 'seller', 'id': 5}
+2026-03-01 15:51:08,459 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ybica_228@gmail.com', 'role': 'seller', 'id': 5}
+2026-03-01 15:51:10,977 - ecommerce_project - INFO - начало проверки данных от юзера ybica_228@gmail.com с jwt подписью 
+2026-03-01 15:51:10,977 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 15:51:10,979 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 15:51:10,983 - ecommerce_project - INFO - поиск значения по параметрам {'id': 11, 'is_active': True} в модели CategoryModel
+2026-03-01 15:51:10,986 - ecommerce_project - INFO - Создание новго объекта с данными {'name': 'Балтика 9', 'description': 'Для храбрецов', 'price': Decimal('100'), 'image_url': 'string', 'stock': 228, 'category_id': 11, 'seller_id': 5} в модели ProductModel
+2026-03-01 15:51:10,986 - ecommerce_project - INFO - поиск значения по параметрам {'name': 'Балтика 9', 'description': 'Для храбрецов', 'price': Decimal('100'), 'image_url': 'string', 'stock': 228, 'category_id': 11, 'seller_id': 5} в модели ProductModel
+2026-03-01 15:51:10,991 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ProductModel
+2026-03-01 15:51:10,991 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 15:51:10,991 - ecommerce_project - INFO - добавили продукт в сессию {'name': 'Балтика 9', 'description': 'Для храбрецов', 'price': Decimal('100'), 'image_url': 'string', 'stock': 228, 'category_id': 11, 'seller_id': 5}
+2026-03-01 15:51:41,718 - ecommerce_project - INFO - начало проверки данных от юзера ybica_228@gmail.com с jwt подписью 
+2026-03-01 15:51:41,718 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 15:51:41,720 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 15:51:41,720 - ecommerce_project - INFO - поиск значения по параметрам {'id': 12, 'is_active': True} в модели CategoryModel
+2026-03-01 15:51:41,721 - ecommerce_project - INFO - Создание новго объекта с данными {'name': 'Сок добрый', 'description': 'Для всей семьи', 'price': Decimal('100'), 'image_url': 'string', 'stock': 150, 'category_id': 12, 'seller_id': 5} в модели ProductModel
+2026-03-01 15:51:41,721 - ecommerce_project - INFO - поиск значения по параметрам {'name': 'Сок добрый', 'description': 'Для всей семьи', 'price': Decimal('100'), 'image_url': 'string', 'stock': 150, 'category_id': 12, 'seller_id': 5} в модели ProductModel
+2026-03-01 15:51:41,723 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ProductModel
+2026-03-01 15:51:41,723 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 15:51:41,724 - ecommerce_project - INFO - добавили продукт в сессию {'name': 'Сок добрый', 'description': 'Для всей семьи', 'price': Decimal('100'), 'image_url': 'string', 'stock': 150, 'category_id': 12, 'seller_id': 5}
+2026-03-01 15:51:46,695 - ecommerce_project - INFO - поиск объектов в модели ProductModel по параметрам {'is_active': True}
+2026-03-01 15:54:37,349 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 15:54:38,890 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 15:55:30,580 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 15:55:32,048 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 15:55:44,315 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 15:55:45,762 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:00:15,880 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:00:17,436 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:01:23,247 - ecommerce_project - INFO - начало проверки данных от юзера ybica_228@gmail.com с jwt подписью 
+2026-03-01 16:01:23,247 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 16:01:23,317 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:01:44,143 - ecommerce_project - INFO - начало проверки данных от юзера ybica_228@gmail.com с jwt подписью 
+2026-03-01 16:01:44,143 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 16:01:44,145 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:01:56,570 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:01:56,571 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 16:01:56,807 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 16:01:56,807 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 16:01:59,914 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:01:59,915 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:01:59,916 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:04:09,700 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:04:11,236 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:04:25,740 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:04:25,741 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:04:25,799 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:04:25,799 - ecommerce_project - INFO - поиск значения по параметрам {'id': 9, 'is_active': True} в модели ProductModel
+2026-03-01 16:04:25,806 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 9, 'comment': 'вкусное пиво', 'grade': 4, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:04:25,806 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 9, 'comment': 'вкусное пиво', 'grade': 4, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:04:25,811 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:04:25,811 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:04:25,811 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 9, 'comment': 'вкусное пиво', 'grade': 4, 'user_id': 4}
+2026-03-01 16:04:25,811 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:04:25,811 - ecommerce_project - INFO - получение объекта с id 9 из модели ProductModel
+2026-03-01 16:04:25,816 - ecommerce_project - INFO - средний рейтинг товара с id 9 успешно выполнен, сделайте коммит
+2026-03-01 16:04:38,972 - ecommerce_project - INFO - поиск объектов в модели ProductModel по параметрам {'is_active': True}
+2026-03-01 16:06:07,973 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:06:09,545 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:07:28,871 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:07:28,871 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:07:28,937 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:07:28,937 - ecommerce_project - INFO - поиск значения по параметрам {'id': 9, 'is_active': True} в модели ProductModel
+2026-03-01 16:07:28,941 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 9, 'comment': 'вкусное пиво', 'grade': 4, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:07:28,943 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 9, 'comment': 'вкусное пиво', 'grade': 4, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:07:28,946 - ecommerce_project - ERROR - объект с парамтетрами {'product_id': 9, 'comment': 'вкусное пиво', 'grade': 4, 'user_id': 4} уже существуюет в проекте
+2026-03-01 16:07:38,986 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:07:38,986 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:07:38,988 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:07:38,988 - ecommerce_project - INFO - поиск значения по параметрам {'id': 10, 'is_active': True} в модели ProductModel
+2026-03-01 16:07:46,762 - ecommerce_project - INFO - поиск объектов в модели ProductModel по параметрам {'is_active': True}
+2026-03-01 16:08:01,936 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:08:01,936 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:08:01,938 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:08:01,938 - ecommerce_project - INFO - поиск значения по параметрам {'id': 8, 'is_active': True} в модели ProductModel
+2026-03-01 16:08:01,940 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 8, 'comment': 'норм сок', 'grade': 4, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:08:01,940 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 8, 'comment': 'норм сок', 'grade': 4, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:08:01,942 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:08:01,942 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:08:01,942 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 8, 'comment': 'норм сок', 'grade': 4, 'user_id': 4}
+2026-03-01 16:08:01,942 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:08:01,942 - ecommerce_project - INFO - получение объекта с id 8 из модели ProductModel
+2026-03-01 16:08:01,950 - ecommerce_project - INFO - средний рейтинг товара с id 8 успешно выполнен и равен 0.0, сделайте коммит
+2026-03-01 16:12:57,708 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:12:57,708 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:12:57,710 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:12:57,712 - ecommerce_project - INFO - поиск значения по параметрам {'id': 1, 'is_active': True, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:13:38,734 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:13:40,479 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:13:41,050 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:13:41,050 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:13:41,115 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:13:41,115 - ecommerce_project - INFO - поиск значения по параметрам {'id': 1, 'is_active': True, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:13:41,119 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:13:41,119 - ecommerce_project - INFO - получение объекта с id 9 из модели ProductModel
+2026-03-01 16:13:41,130 - ecommerce_project - INFO - средний рейтинг товара с id 9 успешно выполнен и равен 4.0000000000000000, сделайте коммит
+2026-03-01 16:15:50,545 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:15:52,276 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:16:07,327 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:16:07,328 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:16:07,510 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:16:07,510 - ecommerce_project - INFO - поиск значения по параметрам {'id': 8, 'is_active': True} в модели ProductModel
+2026-03-01 16:16:07,517 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 8, 'comment': 'норм сок', 'grade': 3, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:16:07,517 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 8, 'comment': 'норм сок', 'grade': 3, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:16:07,522 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:16:07,523 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:16:07,523 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 8, 'comment': 'норм сок', 'grade': 3, 'user_id': 4}
+2026-03-01 16:16:07,523 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:16:07,523 - ecommerce_project - INFO - получение объекта с id 8 из модели ProductModel
+2026-03-01 16:16:07,529 - ecommerce_project - INFO - средний рейтинг товара с id 8 успешно выполнен и равен 4.0000000000000000, сделайте коммит
+2026-03-01 16:17:03,263 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:17:03,264 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:17:03,267 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:17:03,268 - ecommerce_project - INFO - поиск значения по параметрам {'id': 3, 'is_active': True, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:17:03,270 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:17:03,270 - ecommerce_project - INFO - получение объекта с id 8 из модели ProductModel
+2026-03-01 16:17:03,273 - ecommerce_project - INFO - средний рейтинг товара с id 8 успешно выполнен и равен 3.5000000000000000, сделайте коммит
+2026-03-01 16:17:33,159 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:17:33,160 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:17:33,162 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:17:33,163 - ecommerce_project - INFO - поиск значения по параметрам {'id': 8, 'is_active': True} в модели ProductModel
+2026-03-01 16:17:33,165 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 8, 'comment': 'норм сок', 'grade': 6, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:17:33,165 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 8, 'comment': 'норм сок', 'grade': 6, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:17:33,167 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:17:33,167 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:17:33,167 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 8, 'comment': 'норм сок', 'grade': 6, 'user_id': 4}
+2026-03-01 16:17:33,167 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:17:33,167 - ecommerce_project - INFO - получение объекта с id 8 из модели ProductModel
+2026-03-01 16:17:33,170 - ecommerce_project - INFO - средний рейтинг товара с id 8 успешно выполнен и равен 4.0000000000000000, сделайте коммит
+2026-03-01 16:17:42,547 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:17:42,547 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:17:42,549 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:17:42,549 - ecommerce_project - INFO - поиск значения по параметрам {'id': 8, 'is_active': True} в модели ProductModel
+2026-03-01 16:17:42,550 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 8, 'comment': 'норм сок', 'grade': 5, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:17:42,550 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 8, 'comment': 'норм сок', 'grade': 5, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:17:42,551 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:17:42,551 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:17:42,552 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 8, 'comment': 'норм сок', 'grade': 5, 'user_id': 4}
+2026-03-01 16:17:42,552 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:17:42,552 - ecommerce_project - INFO - получение объекта с id 8 из модели ProductModel
+2026-03-01 16:17:42,554 - ecommerce_project - INFO - средний рейтинг товара с id 8 успешно выполнен и равен 4.0000000000000000, сделайте коммит
+2026-03-01 16:18:39,839 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 16:18:39,840 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 16:18:40,061 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ybica_228@gmail.com', 'role': 'seller', 'id': 5}
+2026-03-01 16:18:40,061 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ybica_228@gmail.com', 'role': 'seller', 'id': 5}
+2026-03-01 16:18:54,083 - ecommerce_project - INFO - поиск объектов в модели CategoryModel по параметрам {'is_active': True}
+2026-03-01 16:19:17,327 - ecommerce_project - INFO - начало проверки данных от юзера ybica_228@gmail.com с jwt подписью 
+2026-03-01 16:19:17,328 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 16:19:17,329 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:19:17,329 - ecommerce_project - INFO - поиск значения по параметрам {'id': 12, 'is_active': True} в модели CategoryModel
+2026-03-01 16:19:17,331 - ecommerce_project - INFO - Создание новго объекта с данными {'name': 'Компот', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5} в модели ProductModel
+2026-03-01 16:19:17,332 - ecommerce_project - INFO - поиск значения по параметрам {'name': 'Компот', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5} в модели ProductModel
+2026-03-01 16:19:17,335 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ProductModel
+2026-03-01 16:19:17,336 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:19:17,336 - ecommerce_project - INFO - добавили продукт в сессию {'name': 'Компот', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5}
+2026-03-01 16:19:36,564 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:19:36,566 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 16:19:36,760 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 16:19:36,761 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 16:20:16,780 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:20:16,781 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:20:16,782 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:20:24,963 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:20:24,963 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:20:24,965 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:20:24,965 - ecommerce_project - INFO - поиск значения по параметрам {'id': 10, 'is_active': True} в модели ProductModel
+2026-03-01 16:20:24,966 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 10, 'comment': 'такое себе', 'grade': 3, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:20:24,966 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 10, 'comment': 'такое себе', 'grade': 3, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:20:24,968 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:20:24,968 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:20:24,968 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 10, 'comment': 'такое себе', 'grade': 3, 'user_id': 4}
+2026-03-01 16:20:24,968 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:20:24,968 - ecommerce_project - INFO - получение объекта с id 10 из модели ProductModel
+2026-03-01 16:20:24,971 - ecommerce_project - INFO - средний рейтинг товара с id 10 успешно выполнен и равен 0.0, сделайте коммит
+2026-03-01 16:21:15,310 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:21:16,872 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:21:47,789 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 16:21:47,855 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 16:21:48,087 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ybica_228@gmail.com', 'role': 'seller', 'id': 5}
+2026-03-01 16:21:48,087 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ybica_228@gmail.com', 'role': 'seller', 'id': 5}
+2026-03-01 16:22:14,342 - ecommerce_project - INFO - начало проверки данных от юзера ybica_228@gmail.com с jwt подписью 
+2026-03-01 16:22:14,342 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 16:22:14,344 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:22:14,344 - ecommerce_project - INFO - поиск значения по параметрам {'id': 12, 'is_active': True} в модели CategoryModel
+2026-03-01 16:22:14,350 - ecommerce_project - INFO - Создание новго объекта с данными {'name': 'яга', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5} в модели ProductModel
+2026-03-01 16:22:14,350 - ecommerce_project - INFO - поиск значения по параметрам {'name': 'яга', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5} в модели ProductModel
+2026-03-01 16:22:14,357 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ProductModel
+2026-03-01 16:22:14,358 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:22:14,358 - ecommerce_project - INFO - добавили продукт в сессию {'name': 'яга', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5}
+2026-03-01 16:22:38,186 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:22:38,188 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 16:22:38,384 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 16:22:38,385 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 16:23:10,464 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:23:10,464 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:23:10,466 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:23:10,467 - ecommerce_project - INFO - поиск значения по параметрам {'id': 11, 'is_active': True} в модели ProductModel
+2026-03-01 16:23:10,469 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 11, 'comment': 'такое себе', 'grade': 5, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:23:10,469 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 11, 'comment': 'такое себе', 'grade': 5, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:23:10,476 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:23:10,476 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:23:10,477 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 11, 'comment': 'такое себе', 'grade': 5, 'user_id': 4}
+2026-03-01 16:23:10,477 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:23:10,477 - ecommerce_project - INFO - получение объекта с id 11 из модели ProductModel
+2026-03-01 16:23:10,481 - ecommerce_project - INFO - средний рейтинг товара с id 11 успешно выполнен и равен None, сделайте коммит
+2026-03-01 16:26:55,641 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:26:57,297 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:26:58,171 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:26:59,652 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:27:53,609 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:27:53,609 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:27:53,779 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:27:53,779 - ecommerce_project - INFO - поиск значения по параметрам {'id': 11, 'is_active': True} в модели ProductModel
+2026-03-01 16:27:53,785 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 11, 'comment': 'такое себе', 'grade': 5, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:27:53,785 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 11, 'comment': 'такое себе', 'grade': 5, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:27:53,789 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:27:53,789 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:27:53,790 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 11, 'comment': 'такое себе', 'grade': 5, 'user_id': 4}
+2026-03-01 16:27:53,793 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:27:53,793 - ecommerce_project - INFO - получение объекта с id 11 из модели ProductModel
+2026-03-01 16:27:53,798 - ecommerce_project - INFO - средний рейтинг товара с id 11 успешно выполнен и равен 5.0000000000000000, сделайте коммит
+2026-03-01 16:29:46,792 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:29:48,408 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:30:18,331 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:30:19,794 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:30:38,021 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:30:39,499 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:31:19,518 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:31:21,019 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:31:45,210 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:31:46,743 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:31:49,568 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:31:51,069 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:32:06,785 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:32:08,201 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:33:15,390 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:33:19,024 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:33:51,309 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 16:33:51,367 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 16:33:51,603 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ybica_228@gmail.com', 'role': 'seller', 'id': 5}
+2026-03-01 16:33:51,603 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ybica_228@gmail.com', 'role': 'seller', 'id': 5}
+2026-03-01 16:34:15,211 - ecommerce_project - INFO - начало проверки данных от юзера ybica_228@gmail.com с jwt подписью 
+2026-03-01 16:34:15,211 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ybica_228@gmail.com', 'is_active': True} в модели UserModel
+2026-03-01 16:34:15,213 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:34:15,214 - ecommerce_project - INFO - поиск значения по параметрам {'id': 12, 'is_active': True} в модели CategoryModel
+2026-03-01 16:34:15,219 - ecommerce_project - INFO - Создание новго объекта с данными {'name': 'ягwwwwа', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5} в модели ProductModel
+2026-03-01 16:34:15,219 - ecommerce_project - INFO - поиск значения по параметрам {'name': 'ягwwwwа', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5} в модели ProductModel
+2026-03-01 16:34:15,226 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ProductModel
+2026-03-01 16:34:15,226 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:34:15,226 - ecommerce_project - INFO - добавили продукт в сессию {'name': 'ягwwwwа', 'description': 'как в детстве', 'price': Decimal('1'), 'image_url': 'string', 'stock': 10, 'category_id': 12, 'seller_id': 5}
+2026-03-01 16:34:40,347 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:34:40,348 - ecommerce_project - INFO - Проверяем пароль на соответствие сохраненному хэшу
+2026-03-01 16:34:40,568 - ecommerce_project - INFO - Начало создание refresh токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 16:34:40,568 - ecommerce_project - INFO - Начало создание jwt токена доступа юзера с данными {'sub': 'ept.13@inbox.ru', 'role': 'buyer', 'id': 4}
+2026-03-01 16:34:59,881 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:34:59,881 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:34:59,882 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:34:59,882 - ecommerce_project - INFO - поиск значения по параметрам {'id': 12, 'is_active': True} в модели ProductModel
+2026-03-01 16:34:59,885 - ecommerce_project - INFO - Создание новго объекта с данными {'product_id': 12, 'comment': 'такое себе', 'grade': 4, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:34:59,885 - ecommerce_project - INFO - поиск значения по параметрам {'product_id': 12, 'comment': 'такое себе', 'grade': 4, 'user_id': 4} в модели ReviewModel
+2026-03-01 16:34:59,892 - ecommerce_project - INFO - ПРиступаю к созданию нового объекта в модели ReviewModel
+2026-03-01 16:34:59,892 - ecommerce_project - INFO - объект спешно создан, сделайте комит сессии
+2026-03-01 16:34:59,892 - ecommerce_project - INFO - добавили продукт в сессию {'product_id': 12, 'comment': 'такое себе', 'grade': 4, 'user_id': 4}
+2026-03-01 16:34:59,895 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:34:59,895 - ecommerce_project - INFO - получение объекта с id 12 из модели ProductModel
+2026-03-01 16:34:59,898 - ecommerce_project - INFO - средний рейтинг товара с id 12 успешно выполнен и равен 4.0000000000000000, сделайте коммит
+2026-03-01 16:35:51,537 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:35:51,538 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:35:51,539 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:35:58,140 - ecommerce_project - INFO - начало проверки данных от юзера ept.13@inbox.ru с jwt подписью 
+2026-03-01 16:35:58,140 - ecommerce_project - INFO - поиск значения по параметрам {'email': 'ept.13@inbox.ru', 'is_active': True} в модели UserModel
+2026-03-01 16:35:58,142 - ecommerce_project - INFO - проверка завершена успешно
+2026-03-01 16:35:58,142 - ecommerce_project - INFO - поиск значения по параметрам {'id': 8, 'user_id': 4, 'is_active': True} в модели ReviewModel
+2026-03-01 16:35:58,144 - ecommerce_project - INFO - поиск значения по параметрам {'id': 12, 'is_active': True} в модели ProductModel
+2026-03-01 16:35:58,146 - ecommerce_project - INFO - НАчало put обновления строки с id 8 у модели ReviewModel
+2026-03-01 16:35:58,146 - ecommerce_project - INFO - получение объекта с id 8 из модели ReviewModel
+2026-03-01 16:35:58,148 - ecommerce_project - INFO - Начало расчета среднего рейтинга товара
+2026-03-01 16:35:58,148 - ecommerce_project - INFO - получение объекта с id 12 из модели ProductModel
+2026-03-01 16:35:58,151 - ecommerce_project - INFO - средний рейтинг товара с id 12 успешно выполнен и равен 4.0000000000000000, сделайте коммит
+2026-03-01 16:37:20,192 - ecommerce_project - INFO - поиск значения по параметрам {'id': 12, 'is_active': True} в модели ProductModel
+2026-03-01 16:37:20,194 - ecommerce_project - INFO - поиск объектов в модели ReviewModel по параметрам {'product_id': 12, 'is_active': True}
+2026-03-01 16:37:32,689 - ecommerce_project - INFO - поиск значения по параметрам {'id': 8, 'is_active': True} в модели ProductModel
+2026-03-01 16:37:32,691 - ecommerce_project - INFO - поиск объектов в модели ReviewModel по параметрам {'product_id': 8, 'is_active': True}
+2026-03-01 16:39:09,122 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:39:10,733 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:41:31,492 - ecommerce_project - WARNING - 🛑 Конец работы приложения
+2026-03-01 16:41:33,374 - ecommerce_project - WARNING - Начало работы приложения
+2026-03-01 16:43:12,847 - ecommerce_project - WARNING - 🛑 Конец работы приложения

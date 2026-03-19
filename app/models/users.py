@@ -20,4 +20,6 @@ class UserModel(Base):
         role: Mapped[str] = mapped_column(String, default="buyer", index=True)  # "buyer" or "seller"
         # свзи с другими моделями
         products: Mapped[list["ProductModel"]] = relationship("ProductModel", back_populates="seller")
-        user_reviews : Mapped['ReviewModel'] = relationship('ReviewModel', back_populates='user')        
+        user_reviews : Mapped['ReviewModel'] = relationship('ReviewModel', back_populates='user') 
+        cart_items : Mapped[list['CartItemModel']] = relationship('CartItemModel', cascade="all, delete-orphan", back_populates='user')        
+        user_orders : Mapped[list['OrderModel']] = relationship('OrderModel', back_populates='user', cascade='all, delete-orphan')

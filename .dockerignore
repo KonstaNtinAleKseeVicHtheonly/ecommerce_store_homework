@@ -1,0 +1,39 @@
+# Виртуальное окружение (самое важное!)
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Файлы с секретами и окружением
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+.dockerignore
+docker-compose*.yml
+docker-compose*.yaml
+
+# логи
+app/project_logger/*.log
+# медиа файлы
+media/
+
+# кэш
+__pycache__/
+*.pyc
+*.pyo

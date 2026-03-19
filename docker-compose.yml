@@ -1,0 +1,26 @@
+services: # список всех контейнеров
+  web:
+    # Берем Dockerfile из каталога app
+    build: #откуда брать инфу для контейнера
+      context: .
+      dockerfile: Dockerfile
+    # Запускаем тестовый сервер
+    command: uvicorn app.main:app --host 0.0.0.0
+    # Открываем порт 8000 внутри и снаружи
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+  db:
+    image: postgres:17
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=12345
+      - POSTGRES_DB=ecommerce_store
+
+volumes:
+  postgres_data:
+
+

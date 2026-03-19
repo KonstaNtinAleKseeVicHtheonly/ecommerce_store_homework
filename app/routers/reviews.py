@@ -10,7 +10,7 @@ from app.repositories import ProductRepository, ReviewRepository
 from app.depends.repository_depends import get_product_repository, get_review_repository
 from app.depends.db_depends import get_db_session
 # jwt, авторизация и аутентификация
-from app.auth import get_current_user
+from app.auth import get_current_user, get_current_buyer
 # модели 
 from app.models import UserModel
 
@@ -38,15 +38,11 @@ async def create_review(new_review_info:ReviewCreateSchema,
                         session : AsyncSession = Depends(get_db_session),
                         product_repo : ProductRepository = Depends(get_product_repository),
                         review_repo : ReviewRepository = Depends(get_review_repository),
-                        current_user: UserModel = Depends(get_current_user)):
+                        current_user: UserModel = Depends(get_current_buyer)):
         '''эндпоинт по созданию нового отзыва на товар. Доступен только авторизированным покупателям.
         + проверка на существование продукта по id указанного юзером.Включена переоценка общего рейтинга на товар с учетом 
         выставленной юзером оценки в его комменте'''
         try:
-            if current_user.role != 'buyer':
-                    raise HTTPException(
-                                status_code=status.HTTP_403_FORBIDDEN,
-                                detail='Отзывы разрешено оставлять только аутентифицированным покупателям')
             current_product = await product_repo.get_by_params(session, id = new_review_info.product_id, is_active=True)
             if not current_product:
                 raise HTTPException(status_code=404, detail=f"Product with id : {new_review_info.product_id} doesn't exist or inactive")
@@ -71,15 +67,11 @@ async def update_review(update_info : ReviewCreateSchema,
                         session : AsyncSession = Depends(get_db_session),
                         product_repo : ProductRepository = Depends(get_product_repository),
                         review_repo : ReviewRepository = Depends(get_review_repository),
-                        current_user: UserModel = Depends(get_current_user))->ReviewSchema:
+                        current_user: UserModel = Depends(get_current_buyer))->ReviewSchema:
     '''Эндпоинт на обновление коммента.Коммент может обновлять только аутентифицированный юзер оставивший данный коммент
     с условием что продукт от данного коммента еще сущесвтует и активен'''
     try:
-        # проверка на роль юзеоа
-        if current_user.role != 'buyer':
-                    raise HTTPException(
-                            status_code=status.HTTP_403_FORBIDDEN,
-                            detail='Отзывы разрешено изменять только аутентифицированным покупателям')
+
         current_review = await review_repo.get_by_params(session, id = review_id, user_id=current_user.id, is_active=True) # одновременно проверяем что юзер может изменять только свой отзыв
         if not current_review:
             raise HTTPException(status_code=400, detail=f"Review with id : {review_id} doesn't exist or inactive")

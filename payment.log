@@ -1,0 +1,3 @@
+2026-03-08 23:22:55.852 | INFO     | app.routers.payments:session_set:75 - создагте свой сессии
+2026-03-08 23:23:19.828 | INFO     | app.routers.payments:read_session:83 - вывод инфы из своей сессии | 1234
+2026-03-08 23:23:19.829 | INFO     | app.routers.payments:read_session:85 - К сожалению сессия пустая

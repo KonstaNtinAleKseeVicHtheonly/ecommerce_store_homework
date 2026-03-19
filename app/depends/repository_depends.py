@@ -1,5 +1,5 @@
 from typing import TypeVar, Type
-from app.repositories import CategoryRepository, ProductRepository, UserRepository, ReviewRepository
+from app.repositories import CategoryRepository, ProductRepository, UserRepository, ReviewRepository, CartRepository, OrderRepository
 from fastapi import Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.depends.db_depends import get_db_session
@@ -18,3 +18,9 @@ def get_user_repository():
 
 def get_review_repository():
     return ReviewRepository()
+
+def get_cart_repository():
+    return CartRepository()
+
+def get_order_repository():
+    return OrderRepository()

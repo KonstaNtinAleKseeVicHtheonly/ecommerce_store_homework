@@ -98,6 +98,57 @@ class BaseRepository:
         # 4. Выполняем
         result = await session.execute(stmt)
         return result.scalars().all()  
+    
+    async def get_objects_for_offset_pagination(self, session:AsyncSession, page:int, page_size:int, **filters)-> Dict[str, Any]:
+        '''возвращает объекты с учетом пагинации(страница , количество товаров на странице и критерии поиска) + вернет общее количестов товаров по данным фильрам'''
+        
+        # 1. Считаем общее количество (для пагинации)
+        count_stmt = select(func.count()).select_from(
+            select(self.model).filter_by(**filters).subquery()
+        )
+        total = await session.scalar(count_stmt) or 0
+        
+        items_stmt = select(self.model).filter_by(**filters).order_by(self.model.id).offset((page - 1)*page_size).limit(page_size)
+        #offset - пропустить столько то позиий | limit - взять столько то позиций после пропущенных(offsetом)
+        
+        items_request = await session.execute(items_stmt)
+        items_result = items_request.scalars().all()
+        return {'items' : items_result, 'total' : total}
+    
+    async def get_objects_for_offset_pagination_by_params(self,session:AsyncSession, filters:list, page: int = 1,page_size: int = 10, rank_col=None)->Dict[str, Any]:
+        '''принимает параметры пагинаицц (page,page_size),список фильтров для поиска уже сформированных (в эндпоинте) и по ним поиск делает учитывая пагинацию
+        возвращает словарь из списка отобранных значений с условимия поиска и пагинации'''
+        project_logger.info(f"Начало поиска товаров в модели {self.model.__name__} по запросу юзера, с учетом пагинации страница{page} ")
+        # 1. Считаем общее количество элементов по заданным параметрам
+        total_stmt = select(func.count()).select_from(self.model).where(*filters)
+        total = await session.scalar(total_stmt) or 0 
+
+        # ищем объекты
+        #  с учетом ранга поиска(вначале будут товары с наибольшей частотой слова из запроса юзера)
+        if rank_col is not None:
+            project_logger.info("Адаптирование поиска с учетом ранжирвания")
+            items_stmt = (
+                    select(self.model)
+                    .where(*filters)
+                    .order_by(desc(rank_col), self.model.id)
+                    .offset((page - 1) * page_size)
+                    .limit(page_size)) # срдеи отобранных товаров определяем откуда начать и сколько вывести
+            items_request = await session.execute(items_stmt)
+            rows = items_request.all()
+            items = [item[0] for item in rows]
+        else:
+            project_logger.info("поиск без ранжирования")
+            items_stmt = (
+                    select(self.model)
+                    .where(*filters)
+                    .order_by(self.model.id)
+                    .offset((page - 1) * page_size)
+                    .limit(page_size)) # срдеи отобранных товаров определяем откуда начать и сколько вывести
+            items_request = await session.execute(items_stmt)
+            items = items_request.scalars().all()
+            
+        return {'items': items, 'total' : total}
+    
         
     async def delete_by_id(self, session : AsyncSession, object_id:int):
         '''удаление объекта по id'''
@@ -148,3 +199,4 @@ class BaseRepository:
         # Объект тот же самый, ID тот же
         session.add(updated_obj)
         return updated_obj
+
